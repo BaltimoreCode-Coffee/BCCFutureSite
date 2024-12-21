@@ -16,7 +16,12 @@
 
 body {
   margin: 0;
-  background-color: var(--primary-purple);
+  /* background-color: var(--primary-purple); */
+  height: 100vh;
+  background: linear-gradient(to top right, #1f0834 45%, #4e006e 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main {
   max-width: 1262px;
