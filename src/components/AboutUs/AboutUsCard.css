@@ -177,3 +177,37 @@
         width: 90%;
     }
   }
+
+  @media screen and (min-width: 320px) and (max-width: 600px) {
+    .about-us__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 10px;
+      background-color: white;
+      border-radius: 5px;
+      margin: 0 auto;
+      max-width: 600px;
+      /* width: 75vw; */ /* Removing the defined width allows the component to be better centered on the screen */
+      box-sizing: border-box;
+    }
+
+    .about-us__text, .about-us__img {
+      flex: 1 1 50%;
+      min-width: 200px;
+      padding: 5px;
+    }
+    
+    .about-us__text-header h1 {
+      font-size: 1.4rem;
+      text-wrap: wrap;
+      font-weight: 600;
+      color: #222;
+    }
+
+    .about-us__text-content p {
+      font-size: 0.9rem;
+    }
+  }
